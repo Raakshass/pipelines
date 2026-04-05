@@ -109,7 +109,7 @@ data:
   defaultSecurityContextRunAsUser: ""
   defaultSecurityContextRunAsGroup: ""
   defaultSecurityContextRunAsNonRoot: ""
-  defaultSecurityContextHostUsers: ""
+  defaultSecurityContextHostUsers: "false"
   ## BLOCK_V1_PIPELINES: Controls whether v1 pipelines are allowed to be created and run.
   ## Valid values are 'true' and 'false'. Defaults to 'false'.
   BLOCK_V1_PIPELINES: "false"
